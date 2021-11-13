@@ -21,6 +21,8 @@ $carousel-item-height: 300px;
     min-height:400px;
 }
 
+
+
 .footer{
     background-color: $background-pale;
     @include zero-margin(20px, 0px);
@@ -72,4 +74,19 @@ body{
     position: absolute;
     bottom: 0px;
     z-index: 1;
+}
+
+.modal{
+    .modal-header{
+        background-color: $background-dark;
+        .modal-title{
+            color: floralwhite;
+        }
+        .close{
+            color: floralwhite;
+        }
+    }
+    .modal-body{
+        background-color: $background-pale;
+    }
 }
